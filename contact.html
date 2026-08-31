@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Pure Mix Studio</title>
+  <meta name="description" content="Contact Pure Mix Studio — start a project, request a quote or just say hello. Studio address, phone, email and a quick enquiry form in San Francisco.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232b3a4a'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d45d4a'/%3E%3Ccircle cx='44' cy='20' r='6' fill='%23faf6f0'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">PM</span>
+        <span>Pure Mix<small>Creative Studio</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#work">Work</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Journal</a>
+        <a href="contact.html" class="nav-cta" aria-current="page">Start a Project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Page hero -->
+    <section class="page-hero">
+      <div class="page-hero-bg" style="background-image:url('assets/img/contact-bg.jpg');"></div>
+      <div class="container">
+        <div class="crumb reveal"><a href="index.html">Home</a><span>/</span><span>Contact</span></div>
+        <span class="eyebrow eyebrow--light reveal">Let's Talk</span>
+        <h1 class="reveal reveal-delay-1">Tell us what you're dreaming up.</h1>
+        <p class="reveal reveal-delay-2">A loose idea or a full brief — either way, we'd love to hear it. Every enquiry gets a real human reply within one business day.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="eyebrow reveal">Get in Touch</span>
+            <h2 class="reveal reveal-delay-1">Reach the studio directly.</h2>
+            <dl class="ci-list reveal reveal-delay-2">
+              <div class="ci-item">
+                <span class="ci-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-5.5-7-11a7 7 0 1014 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                </span>
+                <div>
+                  <dt>Studio Address</dt>
+                  <dd>512 Market Street, 3rd Floor<br>San Francisco, CA 94105</dd>
+                </div>
+              </div>
+              <div class="ci-item">
+                <span class="ci-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-3 2a12 12 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
+                </span>
+                <div>
+                  <dt>Phone</dt>
+                  <dd><a href="tel:+14155550290">+1 (415) 555-0290</a></dd>
+                </div>
+              </div>
+              <div class="ci-item">
+                <span class="ci-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+                </span>
+                <div>
+                  <dt>Email</dt>
+                  <dd><a href="mailto:hello@puremix.studio">hello@puremix.studio</a></dd>
+                </div>
+              </div>
+              <div class="ci-item">
+                <span class="ci-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+                </span>
+                <div>
+                  <dt>Studio Hours</dt>
+                  <dd>Mon – Fri · 9 AM – 6 PM<br>Sat · by appointment</dd>
+                </div>
+              </div>
+            </dl>
+          </div>
+
+          <form class="contact-form" data-form novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your name *</label>
+                <input type="text" id="name" name="name" placeholder="Jordan Lee" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email address *</label>
+                <input type="email" id="email" name="email" placeholder="jordan@company.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">What do you need?</label>
+              <select id="subject" name="subject">
+                <option value="">Select a service</option>
+                <option>Brand identity</option>
+                <option>Website design &amp; build</option>
+                <option>Art direction / campaign</option>
+                <option>Rebrand / refresh</option>
+                <option>Design system</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell us about it *</label>
+              <textarea id="message" name="message" placeholder="The idea, the timeline, the budget ballpark — the more context, the better our first response." required></textarea>
+            </div>
+            <p class="form-status" role="status" aria-live="polite"></p>
+            <button type="submit" class="btn btn--solid btn--block">Send the Message
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-mark" aria-hidden="true">PM</span>
+            <span>Pure Mix<small>Creative Studio</small></span>
+          </a>
+          <p>An independent creative studio in San Francisco mixing strategy, design and code since 2017.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="#" aria-label="Dribbble"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M5 8.5c5 1.5 9 .5 13.5-2M3.5 13.5c6-1 9.5 2 11 7.5M12.5 3c-2 6.5-3.5 12-3 18"/></svg></a>
+            <a href="#" aria-label="Behance"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.2 11.1c.9-.5 1.4-1.3 1.4-2.4 0-2-1.5-2.9-3.4-2.9H1v12.4h5.3c2 0 3.9-1.1 3.9-3.5 0-1.5-.7-2.6-2-3.6zM3.6 7.4h2c.9 0 1.4.4 1.4 1.3 0 .9-.5 1.3-1.4 1.3h-2V7.4zm2.5 9.2H3.6v-3.3h2.6c1 0 1.6.5 1.6 1.6 0 1.2-.7 1.7-1.7 1.7zM21.9 9.5c-.5-1.7-2-2.8-3.8-2.8-2.1 0-3.9 1.2-4.3 3.3l1.9.4c.2-.9.9-1.5 2.4-1.5 1.2 0 1.9.7 1.9 1.6v.9c-.7-.3-2.3-.6-3.3-.6-1.6 0-3.6.9-3.6 3 0 1.9 1.5 3.2 3.5 3.2 1.4 0 2.5-.7 3.1-1.8h.1v1.5h1.9V11c0-1.2-.3-2.1-.8-1.5zm-3.4 5.4c-1 0-1.9-.5-1.9-1.4 0-.9.9-1.3 1.9-1.3.9 0 1.7.2 2.4.5v1.4c-.7.5-1.5.8-2.4.8zM13.1 6.2h4.6v1.4h-4.6V6.2z"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.33V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.38 4.27 5.47v6.27zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.1 20.45H3.57V9H7.1v11.45zM22.22 0H1.78C.8 0 0 .77 0 1.73v20.54C0 23.23.8 24 1.78 24h20.44c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Studio</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#work">Our Work</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Journal</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>What We Do</h4>
+          <ul>
+            <li><a href="about.html">Branding</a></li>
+            <li><a href="about.html">Web Design</a></li>
+            <li><a href="about.html">Art Direction</a></li>
+            <li><a href="about.html">Campaigns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visit the Studio</h4>
+          <ul>
+            <li><a href="https://maps.google.com" rel="noopener" target="_blank">512 Market Street,<br>San Francisco, CA 94105</a></li>
+            <li><a href="tel:+14155550290">+1 (415) 555-0290</a></li>
+            <li><a href="mailto:hello@puremix.studio">hello@puremix.studio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Pure Mix Studio. All rights reserved.</span>
+        <span class="fb-mark">Made with a good mix ✦</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

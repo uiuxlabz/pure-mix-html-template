@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Journal — Pure Mix Studio</title>
+  <meta name="description" content="The Pure Mix journal — field notes on design process, craft and studio culture. Essays, case studies and honest thoughts from our San Francisco studio.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232b3a4a'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d45d4a'/%3E%3Ccircle cx='44' cy='20' r='6' fill='%23faf6f0'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark" aria-hidden="true">PM</span>
+        <span>Pure Mix<small>Creative Studio</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#work">Work</a>
+        <a href="about.html">About</a>
+        <a href="blog.html" aria-current="page">Journal</a>
+        <a href="contact.html" class="nav-cta">Start a Project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Page hero -->
+    <section class="page-hero">
+      <div class="page-hero-bg" style="background-image:url('assets/img/blog-bg.jpg');"></div>
+      <div class="container">
+        <div class="crumb reveal"><a href="index.html">Home</a><span>/</span><span>Journal</span></div>
+        <span class="eyebrow eyebrow--light reveal">The Journal</span>
+        <h1 class="reveal reveal-delay-1">Notes from the studio floor.</h1>
+        <p class="reveal reveal-delay-2">Essays, case studies and honest thoughts on design, code and running a small studio. New pieces a couple of times a month.</p>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="section">
+      <div class="container">
+        <div class="blog-filter reveal" role="group" aria-label="Filter journal posts">
+          <button type="button" class="is-active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="process" aria-pressed="false">Process</button>
+          <button type="button" data-filter="craft" aria-pressed="false">Craft</button>
+          <button type="button" data-filter="culture" aria-pressed="false">Culture</button>
+        </div>
+
+        <!-- Feature -->
+        <article class="blog-feature reveal" data-cat="process">
+          <div class="bf-img">
+            <img src="assets/img/blog-1.jpg" alt="A hot-air balloon floating high above the clouds" loading="lazy">
+          </div>
+          <div class="bf-body">
+            <span class="blog-meta">Featured · Process · Jul 2026</span>
+            <h3>Flying the Clouds: taking a brief from vague to vivid</h3>
+            <p>The single biggest failure in branding isn't bad design — it's a fuzzy brief. Here's the exact six-week pipeline we use to turn "make us stand out" into a positioning, a palette and a voice the whole team can defend.</p>
+            <a href="contact.html" class="btn btn--mint">Read the Case Study
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <div class="bf-authors">
+              <div class="bf-author">
+                <img src="assets/img/avatar-1.jpg" alt="Maya Rowan" loading="lazy">
+                <div><strong>Maya Rowan</strong><span>Design Director</span></div>
+              </div>
+              <div class="bf-author">
+                <img src="assets/img/avatar-2.jpg" alt="Tomas Vale" loading="lazy">
+                <div><strong>Tomas Vale</strong><span>Strategy Lead</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="blog-grid">
+          <article class="blog-card reveal" data-cat="craft">
+            <a href="blog.html" class="blog-thumb" aria-label="Read the journal post">
+              <img src="assets/img/blog-2.jpg" alt="A lone astronaut walking on the moon" loading="lazy">
+            </a>
+            <div class="blog-body">
+              <span class="blog-meta">Craft · Jun 2026</span>
+              <h3><a href="blog.html">Walk in the Moon</a></h3>
+              <p>On the quiet power of restraint — why our favourite layouts usually survive deleting the thing we loved most.</p>
+              <a href="blog.html" class="blog-link">Read Post
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="blog-card reveal reveal-delay-1" data-cat="culture">
+            <a href="blog.html" class="blog-thumb" aria-label="Read the journal post">
+              <img src="assets/img/blog-3.jpg" alt="Swimming through a deep blue pool of water" loading="lazy">
+            </a>
+            <div class="blog-body">
+              <span class="blog-meta">Culture · May 2026</span>
+              <h3><a href="blog.html">Swim the Pool</a></h3>
+              <p>What we learned moving to a four-day studio week — and the three rituals that keep the work sharp, not just short.</p>
+              <a href="blog.html" class="blog-link">Read Post
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="blog-card reveal reveal-delay-2" data-cat="process">
+            <a href="blog.html" class="blog-thumb" aria-label="Read the journal post">
+              <img src="assets/img/blog-4.jpg" alt="A warm sunlit field with a figure talking to the sky" loading="lazy">
+            </a>
+            <div class="blog-body">
+              <span class="blog-meta">Process · Apr 2026</span>
+              <h3><a href="blog.html">Talking the Sun</a></h3>
+              <p>Client workshops don't have to feel like root canals. A field guide to running discovery sessions people actually enjoy.</p>
+              <a href="blog.html" class="blog-link">Read Post
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="blog-card reveal" data-cat="craft">
+            <a href="blog.html" class="blog-thumb" aria-label="Read the journal post">
+              <img src="assets/img/blog-5.jpg" alt="A distant mountain range at golden hour" loading="lazy">
+            </a>
+            <div class="blog-body">
+              <span class="blog-meta">Craft · Mar 2026</span>
+              <h3><a href="blog.html">View the Mountain</a></h3>
+              <p>Design systems that survive contact with reality — how we document without drowning in documentation.</p>
+              <a href="blog.html" class="blog-link">Read Post
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="blog-card reveal reveal-delay-1" data-cat="culture">
+            <a href="blog.html" class="blog-thumb" aria-label="Read the journal post">
+              <img src="assets/img/blog-6.jpg" alt="A dramatic mountain peak against the sky" loading="lazy">
+            </a>
+            <div class="blog-body">
+              <span class="blog-meta">Culture · Feb 2026</span>
+              <h3><a href="blog.html">Mountain</a></h3>
+              <p>Keeping your cool on big launches — the calm-down rituals, the no-heroics rule, and why scope is a team sport.</p>
+              <a href="blog.html" class="blog-link">Read Post
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="blog-card reveal reveal-delay-2" data-cat="process">
+            <a href="blog.html" class="blog-thumb" aria-label="Read the journal post">
+              <img src="assets/img/blog-7.jpg" alt="Clouds drifting across a bright sky" loading="lazy">
+            </a>
+            <div class="blog-body">
+              <span class="blog-meta">Process · Jan 2026</span>
+              <h3><a href="blog.html">Cloud</a></h3>
+              <p>Why we write the strategy document nobody asked for — and how a single page of "why" saves months of "what".</p>
+              <a href="blog.html" class="blog-link">Read Post
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="blog-card reveal" data-cat="craft">
+            <a href="blog.html" class="blog-thumb" aria-label="Read the journal post">
+              <img src="assets/img/blog-8.jpg" alt="A clear blue sky with wispy clouds" loading="lazy">
+            </a>
+            <div class="blog-body">
+              <span class="blog-meta">Craft · Dec 2025</span>
+              <h3><a href="blog.html">Blue Sky</a></h3>
+              <p>Typography is 90% of the job. The pairing rules, the size scales, and the mistakes we see (and make) on every first pass.</p>
+              <a href="blog.html" class="blog-link">Read Post
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+          <article class="blog-card reveal reveal-delay-1" data-cat="culture">
+            <a href="blog.html" class="blog-thumb" aria-label="Read the journal post">
+              <img src="assets/img/blog-9.jpg" alt="A lush forest viewed from inside the canopy" loading="lazy">
+            </a>
+            <div class="blog-body">
+              <span class="blog-meta">Culture · Nov 2025</span>
+              <h3><a href="blog.html">Forest</a></h3>
+              <p>What ten designers are reading, watching and building this autumn — our studio's seasonal culture digest.</p>
+              <a href="blog.html" class="blog-link">Read Post
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section section--tint">
+      <div class="container">
+        <div class="newsletter reveal">
+          <span class="eyebrow eyebrow--center">The Mix</span>
+          <h2>Never miss an essay.</h2>
+          <p>Studio news, fresh work and honest thoughts on design. No spam — unsubscribe anytime.</p>
+          <form class="nl-form" data-nl novalidate>
+            <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+            <button type="submit" class="btn btn--mint">Subscribe</button>
+          </form>
+          <p class="nl-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band cta-band--img" style="--cta-img:url('assets/img/hero.jpg');">
+      <div class="container">
+        <span class="eyebrow eyebrow--center eyebrow--light reveal">Enjoying the mix?</span>
+        <h2 class="reveal reveal-delay-1">Let's write the next case study together.</h2>
+        <p class="reveal reveal-delay-2">Your project could be the one we tell the story about next year.</p>
+        <div class="btn-wrap reveal reveal-delay-3" style="justify-content:center;">
+          <a href="contact.html" class="btn btn--solid">Start a Project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="index.html" class="btn btn--outline-light">Back to Home</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-mark" aria-hidden="true">PM</span>
+            <span>Pure Mix<small>Creative Studio</small></span>
+          </a>
+          <p>An independent creative studio in San Francisco mixing strategy, design and code since 2017.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="#" aria-label="Dribbble"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M5 8.5c5 1.5 9 .5 13.5-2M3.5 13.5c6-1 9.5 2 11 7.5M12.5 3c-2 6.5-3.5 12-3 18"/></svg></a>
+            <a href="#" aria-label="Behance"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.2 11.1c.9-.5 1.4-1.3 1.4-2.4 0-2-1.5-2.9-3.4-2.9H1v12.4h5.3c2 0 3.9-1.1 3.9-3.5 0-1.5-.7-2.6-2-3.6zM3.6 7.4h2c.9 0 1.4.4 1.4 1.3 0 .9-.5 1.3-1.4 1.3h-2V7.4zm2.5 9.2H3.6v-3.3h2.6c1 0 1.6.5 1.6 1.6 0 1.2-.7 1.7-1.7 1.7zM21.9 9.5c-.5-1.7-2-2.8-3.8-2.8-2.1 0-3.9 1.2-4.3 3.3l1.9.4c.2-.9.9-1.5 2.4-1.5 1.2 0 1.9.7 1.9 1.6v.9c-.7-.3-2.3-.6-3.3-.6-1.6 0-3.6.9-3.6 3 0 1.9 1.5 3.2 3.5 3.2 1.4 0 2.5-.7 3.1-1.8h.1v1.5h1.9V11c0-1.2-.3-2.1-.8-1.5zm-3.4 5.4c-1 0-1.9-.5-1.9-1.4 0-.9.9-1.3 1.9-1.3.9 0 1.7.2 2.4.5v1.4c-.7.5-1.5.8-2.4.8zM13.1 6.2h4.6v1.4h-4.6V6.2z"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.33V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.38 4.27 5.47v6.27zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.1 20.45H3.57V9H7.1v11.45zM22.22 0H1.78C.8 0 0 .77 0 1.73v20.54C0 23.23.8 24 1.78 24h20.44c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Studio</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#work">Our Work</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Journal</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>What We Do</h4>
+          <ul>
+            <li><a href="about.html">Branding</a></li>
+            <li><a href="about.html">Web Design</a></li>
+            <li><a href="about.html">Art Direction</a></li>
+            <li><a href="about.html">Campaigns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visit the Studio</h4>
+          <ul>
+            <li><a href="https://maps.google.com" rel="noopener" target="_blank">512 Market Street,<br>San Francisco, CA 94105</a></li>
+            <li><a href="tel:+14155550290">+1 (415) 555-0290</a></li>
+            <li><a href="mailto:hello@puremix.studio">hello@puremix.studio</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Pure Mix Studio. All rights reserved.</span>
+        <span class="fb-mark">Made with a good mix ✦</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
